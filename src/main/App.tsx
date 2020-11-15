@@ -37,8 +37,7 @@ function App(): JSX.Element {
       });
   }, []);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const exibirPokemons = (): any => {
+  const exibirPokemons = (): JSX.Element[] | undefined => {
     return pokemons?.results.map((pokemon, index) => {
       const url = pokemon.url.split('/');
       const id = parseInt(url[6]);
