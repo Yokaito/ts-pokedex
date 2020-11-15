@@ -1,0 +1,9 @@
+.card {
+  width: 20rem;
+  background: #f8f7ff;
+}
+
+.blur {
+  filter: blur(7px) opacity(80%);
+  transition: 0.3s ease-in;
+}

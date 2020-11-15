@@ -1,0 +1,25 @@
+body {
+  background: #b8b8ff;
+}
+
+nav {
+  background: #9381ff;
+}
+
+nav span {
+  color: #fff;
+}
+
+.buttons button {
+  background: #9381ff;
+  border: none;
+  transition: 0.3s ease-in;
+}
+
+.buttons button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.buttons button:hover {
+  background: #a797ff;
+}
